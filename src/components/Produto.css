@@ -1,0 +1,33 @@
+.area{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 400px;
+    background-color: burlywood;
+    padding: 20px;
+    border-radius: 16px;
+    margin: 10px;
+}
+.anuncio{
+    color: rgb(0, 0, 0);
+    text-decoration: solid;
+    text-align: center;
+}
+.desconto{
+    text-decoration: line-through;
+    color: rgb(211, 32, 56);
+    font-size: 1.8rem;
+    text-align: left;
+}
+.sem-desconto{
+    font-size: 1.8rem;
+    text-align: center;
+    position: relative;
+    top: 10px
+}
+.prices{
+    display: flex;
+    justify-content: center;
+    margin:5px;
+}
+.porcentagem{
+    color: green;
+}
